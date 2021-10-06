@@ -90,7 +90,11 @@
   .slide :global(h3) {
     font-size: 1.4rem;
   }
-  .slide :global(h4, h5, h6, p, li) {
+  .slide :global(h4),
+  .slide :global(h5),
+  .slide :global(h6),
+  .slide :global(p),
+  .slide :global(li) {
     font-size: 1.2rem;
   }
 </style>

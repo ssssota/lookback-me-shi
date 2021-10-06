@@ -1,16 +1,32 @@
 <script lang="ts">
   import ProgressBar from "./components/ProgressBar.svelte";
   import SlideView from "./components/SlideView.svelte";
-  import { page } from "./utils/page";
+  import AboutMeShi from "./pages/AboutMeShi.svelte";
+  import ActionsFail from "./pages/ActionsFail.svelte";
+import Conclusion from "./pages/Conclusion.svelte";
+  import FirstAccident from "./pages/FirstAccident.svelte";
+  import FirstMove from "./pages/FirstMove.svelte";
+  import IntroPage from "./pages/IntroPage.svelte";
+  import MeShi from "./pages/MeShi.svelte";
+  import NeverGiveUp from "./pages/NeverGiveUp.svelte";
+  import NpmAltPnpm from "./pages/NpmAltPnpm.svelte";
+  import Repository from "./pages/Repository.svelte";
   import TitlePage from "./pages/TitlePage.svelte";
-  import ContentsPage from "./pages/ContentsPage.svelte";
-  import Usage from "./pages/Usage.svelte";
+  import { page } from "./utils/page";
   export let listView = false;
 
   const pages = [
     TitlePage,
-    ContentsPage,
-    Usage,
+    IntroPage,
+    MeShi,
+    AboutMeShi,
+    Repository,
+    FirstMove,
+    FirstAccident,
+    NpmAltPnpm,
+    NeverGiveUp,
+    ActionsFail,
+    Conclusion,
     // INSERT YOUR PAGE HERE!
   ];
 

@@ -3,12 +3,6 @@
 </script>
 
 <CenteringPane>
-  <h1>Hello Svelide</h1>
-  <p>This slide is an example.</p>
+  <h1>me-shiの裏側</h1>
+  <p>ssssota</p>
 </CenteringPane>
-
-<style>
-  * {
-    font-family: 'Overpass', sans-serif;
-  }
-</style>
